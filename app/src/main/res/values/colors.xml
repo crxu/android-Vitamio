@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#F5F5F5</color>
+
+    <color name="color_bg">#333</color>
+    <!--透明-->
+    <color name="color_transparent">#00000000</color>
+    <!--获取焦点后的色值-->
+    <color name="color_focus">#912CEE</color>
+    <!--失去焦点的色值-->
+    <color name="color_focus_loss">#6C6C6C</color>
+    <color name="color_normal">#555</color>
+
+    <color name="color_focus_loss_trans">#886C6C6C</color>
+
+    <!--设置item边框的色值-->
+    <color name="color_border">#0080FF</color>
+
+</resources>

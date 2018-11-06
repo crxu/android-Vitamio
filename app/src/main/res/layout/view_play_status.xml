@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ProgressBar
+        android:id="@+id/pb_progress"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:indeterminateDrawable="@drawable/waiting_bar" />
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:shadowColor="#000"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="按左右键切源"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1M/S"
+        android:textColor="@color/color_focus"
+        android:textSize="25sp" />
+
+</LinearLayout>
